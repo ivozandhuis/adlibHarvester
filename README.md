@@ -3,7 +3,10 @@
 Python3 script harvesting data from Adlib API endpoint
 Stores AdlibXML-file for every priref from DATABASE on ENDPOINT in directory PATH, modified after DATE.
 
+See [Adlib API documentation](https://api.adlibsoft.com/).
+
 ./adlibHarvester.py
+
 * -v:  VERSION
 * -t:  TEST download first 200 records
 * -ep: ENDPOINT
@@ -11,6 +14,7 @@ Stores AdlibXML-file for every priref from DATABASE on ENDPOINT in directory PAT
 * -p:  PATH (default: output\)
 * -d:  DATE of last harvest (harvester only harvests records modified after date) (default: 1900-01-01)
 * -s:  SEARCH value, selecting records (default: all)
+* -xmltype: XML-structure according to Adlib spex: grouped or ungrouped (default: grouped)
 
 examples
 ```
